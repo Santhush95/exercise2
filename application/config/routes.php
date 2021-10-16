@@ -52,3 +52,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $route['default_controller'] = 'welcome';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
+
+// branches CRUD
+// $route['branches'] = "Branches/index";
+// $route['branches/create'] = "Branches/create";
+// $route['branches/store'] = "Branches/store";
+// $route['branches/edit'] = "Branches/edit/$1";
+// $route['branches/update/(:any)'] = "Branches/update/$1";
+// $route['branches/delete'] = "Branches/delete/$1";
+// $route['branches/edit/(:any)'] = 'Branches/edit/$1';
