@@ -6,14 +6,18 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title> Account Management System </title>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-        <link rel="stylesheet" href=<?php echo base_url('resources/style.css'); ?>>
+        <link rel="stylesheet" type = "text/css" href=<?php echo base_url('resources/style.css'); ?>>
     </head>
+
+    <!-- body -->
     <body>
 
         <div class="container">
             <!-- header -->
-            <div class="" id= "header">
-                <img src=<?php echo base_url('resources/img/ams-logo.png'); ?> alt="acm-logo">
+            <div class="header" id= "">
+                <a href="<?php echo base_url('') ?>">
+                    <img src=<?php echo base_url('resources/img/ams-logo.png'); ?> alt="acm-logo">
+                </a>
                 <h1> Account Management System</h1>
             </div>
             <!-- navebar -->

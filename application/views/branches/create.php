@@ -1,6 +1,7 @@
 <!-- body -->
 <div class="" id= "content">
     <h3>Create Branch</h3>
+    <a href=<?php echo base_url('branches') ?> class="btn btn-success">Go Back</a>
     <hr>
     <form id="branch_create" method="post" action= <?php echo base_url('branches/store');?>>
         <div class="form-group">

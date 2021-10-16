@@ -1,7 +1,11 @@
 <!-- body -->
 <div class="" id= "content">
     <h3>List of Available Branches</h3>
-    <a href=<?php echo base_url('branches/create') ?> class="btn btn-success">Add New</a>
+    <div style="display: flex;">
+        <a href=<?php echo base_url('') ?> class="btn btn-success">Go Back</a>
+        <span></span>
+        <a href=<?php echo base_url('branches/create') ?> class="btn btn-success" style="margin-left:auto">Add New</a>
+    </div>
     <hr>
     <table class="table text-center">
         <thead>
