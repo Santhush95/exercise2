@@ -16,7 +16,7 @@ class Branches_model extends CI_Model {
     
     public function get_branch($id) {    
         $this->db->where('branch_id',$id);
-        return $this->db->select('*')->from('tbl_branches')->join('tbl_banks','tbl_branches.bank_id = tbl_banks.bank_id');
+        $this->db->select('*')->from('tbl_branches')->join('tbl_banks','tbl_branches.bank_id = tbl_banks.bank_id');
         return $this->db->get()->row();
         // return $this->db->get_where('tbl_branches', array('branch_id' => $id))->row();
     }
