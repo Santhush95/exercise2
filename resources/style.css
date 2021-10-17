@@ -54,10 +54,10 @@ body {
 
 /* home */
 .home {
-	text-align: center;
+	/* text-align: center; */
 }
 
 /* branches */
-#flex {
-	display: flex;
+.branches-list .btn {
+	width: 80px;
 }
